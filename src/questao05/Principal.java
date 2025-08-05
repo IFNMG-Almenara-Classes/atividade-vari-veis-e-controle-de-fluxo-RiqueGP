@@ -13,7 +13,7 @@ public class Principal {
             if(laranjas <= 0){
                 System.out.println("Valor inválido, digite um valor maior que '0'.");
                 continue;
-            }
+            } 
 
             if(laranjas < 12){
             System.out.println("O preço total ficará: R$"+0.5*laranjas);
