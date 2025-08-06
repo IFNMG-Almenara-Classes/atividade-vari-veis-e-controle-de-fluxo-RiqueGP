@@ -14,7 +14,7 @@ public class Principal {
             }
         } while(num1<0);
 
-        for(int i = 0; i <=num1; ++i){
+        for(int i = 0; i <=num1; i++){
 
             if(i%2==0){
                 System.out.println("Número: "+i);

@@ -25,7 +25,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=100){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$100,00):");
                     }
                 } while(valor!=100);
             } else if(pizza == 2){
@@ -33,7 +33,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=150){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$160,00):");
                     }
                 } while(valor!=150);
             } else if(pizza == 3){
@@ -41,7 +41,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=200){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$200,00):");
                     }
                 } while(valor!=200);
             }
@@ -53,7 +53,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=95){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$95,00):");
                     }
                 } while(valor!=95);
             } else if(pizza == 2){
@@ -61,7 +61,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=152){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$152,00):");
                     }
                 } while(valor!=152);
             } else if(pizza == 3){
@@ -69,7 +69,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=190){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$190,00):");
                     }
                 } while(valor!=190);
             }
@@ -81,7 +81,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=90){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$90,00):");
                     }
                 } while(valor!=90);
             } else if(pizza == 2){
@@ -89,7 +89,7 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=144){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$144,00):");
                     }
                 } while(valor!=144);
             } else if(pizza == 3){
@@ -97,13 +97,12 @@ public class Principal {
                 do{
                     valor = entrada.nextInt();
                     if (valor!=180){
-                        System.out.println("Valor inválido.");
+                        System.out.println("Valor inválido. Digite o valor correto (R$180,00):");
                     }
                 } while(valor!=180);
             }
-            System.out.println("Transação aprovada!");
         }
-
+        System.out.println("Transação aprovada!");
         entrada.close();
     }
 
