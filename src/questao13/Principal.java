@@ -8,6 +8,7 @@ public class Principal {
         int num2;
         int i;
 
+        
         System.out.println("1 - Soma\n2 - Subtrair\n3 - Multiplicar\n4 - Dividir\n5 - Sair");
         System.out.print("Selecione a opção correspondente: ");
         i = entrada.nextInt();
@@ -27,6 +28,9 @@ public class Principal {
                 System.out.println(num1+" / "+num2+" = "+(num1/num2));
             }
             
+            System.out.println("1 - Soma\n2 - Subtrair\n3 - Multiplicar\n4 - Dividir\n5 - Sair");
+            System.out.print("Selecione a opção correspondente: ");
+            i = entrada.nextInt();
         }
         System.out.println("Fim!");
         entrada.close();
